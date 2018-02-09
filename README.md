@@ -1,5 +1,7 @@
 # babel-preset-cellular
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/fgnass/babel-preset-cellular.svg)](https://greenkeeper.io/)
+
 This package includes the Babel preset used at [CELLULAR](https://www.cellular.de).
 
 ## Usage in cellular-scripts Projects
