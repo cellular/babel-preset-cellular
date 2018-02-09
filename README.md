@@ -1,12 +1,14 @@
 # babel-preset-cellular
 
+[![Build Status](https://travis-ci.org/fgnass/babel-preset-cellular.svg?branch=master)](https://travis-ci.org/fgnass/babel-preset-cellular) [![Greenkeeper badge](https://badges.greenkeeper.io/fgnass/babel-preset-cellular.svg)](https://greenkeeper.io/)
+
 This package includes the Babel preset used at [CELLULAR](https://www.cellular.de).
 
-## Usage in cellular-scripts Projects
+## Usage in cellular-scripts projects
 
 The easiest way to use this configuration is with [cellular-scripts](https://www.npmjs.com/package/cellular-scripts), which includes it by default. **You don’t need to install it separately.**
 
-## Usage Outside of cellular-scripts
+## Usage outside of cellular-scripts
 
 If you want to use this Babel preset in a project not built with cellular-scripts, you can install it with following steps:
 
