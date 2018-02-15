@@ -22,7 +22,6 @@ Plugins:
 When NODE_ENV or BABEL_ENV is `test`:
 * [babel-plugin-dynamic-import-node](https://www.npmjs.com/package/babel-plugin-dynamic-import-node)
 
-
 ## Usage in cellular-scripts projects
 
 The easiest way to use this configuration is with [cellular-scripts](https://www.npmjs.com/package/cellular-scripts), which includes it by default. **You don’t need to install it separately.**
