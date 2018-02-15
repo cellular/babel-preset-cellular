@@ -2,7 +2,7 @@
   "name": "babel-preset-cellular",
   "version": "1.0.0",
   "description": "Babel preset used at CELLULAR",
-  "repository": "fgnass/babel-preset-cellular",
+  "repository": "cellular/babel-preset-cellular",
   "author": "Felix Gnass <fgnass@cellular.de>",
   "license": "MIT",
   "files": [

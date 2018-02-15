@@ -1,7 +1,7 @@
 # babel-preset-cellular
 
-[![Build Status](https://travis-ci.org/fgnass/babel-preset-cellular.svg?branch=master)](https://travis-ci.org/fgnass/babel-preset-cellular)
-[![Greenkeeper badge](https://badges.greenkeeper.io/fgnass/babel-preset-cellular.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/cellular/babel-preset-cellular.svg?branch=master)](https://travis-ci.org/cellular/babel-preset-cellular)
+[![Greenkeeper badge](https://badges.greenkeeper.io/cellular/babel-preset-cellular.svg)](https://greenkeeper.io/)
 [![version](https://img.shields.io/npm/v/babel-preset-cellular.svg)](http://npm.im/babel-preset-cellular)
 
 This package includes the Babel preset used at [CELLULAR](https://www.cellular.de).
