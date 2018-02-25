@@ -5,6 +5,7 @@ module.exports = function(api, options) {
       react: true,
       flow: true,
       glamorous: true,
+      displayname: true,
       builtIns: true, // switch to 'usage' in Babel 7,
       modules: isTestEnv ? 'commonjs' : false,
     },
@@ -29,6 +30,9 @@ module.exports = function(api, options) {
   ].filter(Boolean);
 
   const plugins = [
+    opts.react &&
+      opts.displayname &&
+      require.resolve('babel-plugin-add-react-displayname'),
     require.resolve('babel-plugin-syntax-dynamic-import'),
     require.resolve('babel-plugin-transform-decorators-legacy'),
     require.resolve('babel-plugin-transform-class-properties'),

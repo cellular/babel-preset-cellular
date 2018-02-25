@@ -7,20 +7,22 @@
 This package includes the Babel preset used at [CELLULAR](https://www.cellular.de).
 
 Presets:
-* [babel-preset-env](https://www.npmjs.com/package/babel-preset-env)
-* [babel-preset-flow](https://www.npmjs.com/package/babel-preset-flow)
-* [babel-preset-react](https://www.npmjs.com/package/babel-preset-react)
+* [env](https://www.npmjs.com/package/babel-preset-env)
+* [flow](https://www.npmjs.com/package/babel-preset-flow)
+* [react](https://www.npmjs.com/package/babel-preset-react)
 
 Plugins:
-* [babel-plugin-syntax-dynamic-import](https://www.npmjs.com/package/babel-plugin-syntax-dynamic-import)
-* [babel-plugin-transform-decorators-legacy](https://www.npmjs.com/package/babel-plugin-transform-decorators-legacy)
-* [babel-plugin-transform-class-properties](https://www.npmjs.com/package/babel-plugin-transform-class-properties)
-* [babel-plugin-transform-object-rest-spread](https://www.npmjs.com/package/babel-plugin-transform-object-rest-spread)
-* [babel-plugin-minify-dead-code-elimination](https://www.npmjs.com/package/babel-plugin-minify-dead-code-elimination)
-* [babel-plugin-glamorous-displayname](https://www.npmjs.com/package/babel-plugin-glamorous-displayname) 
+
+* [add-react-displayname](https://www.npmjs.com/package/babel-plugin-add-react-displayname)
+* [glamorous-displayname](https://www.npmjs.com/package/babel-plugin-glamorous-displayname) 
+* [syntax-dynamic-import](https://www.npmjs.com/package/babel-plugin-syntax-dynamic-import)
+* [transform-decorators-legacy](https://www.npmjs.com/package/babel-plugin-transform-decorators-legacy)
+* [transform-class-properties](https://www.npmjs.com/package/babel-plugin-transform-class-properties)
+* [transform-object-rest-spread](https://www.npmjs.com/package/babel-plugin-transform-object-rest-spread)
+* [minify-dead-code-elimination](https://www.npmjs.com/package/babel-plugin-minify-dead-code-elimination)
 
 When NODE_ENV or BABEL_ENV is `test`:
-* [babel-plugin-dynamic-import-node](https://www.npmjs.com/package/babel-plugin-dynamic-import-node)
+* [dynamic-import-node](https://www.npmjs.com/package/babel-plugin-dynamic-import-node)
 
 ## Usage in cellular-scripts projects
 
@@ -58,6 +60,7 @@ If your project doesn't use flow, react or glamorous you can turn off these plug
       {
         flow: false,
         react: false,
+        displayname: false,
         glamorous: false,
       }
     ]
