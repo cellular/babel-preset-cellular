@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-cellular",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Babel preset used at CELLULAR",
   "repository": "cellular/babel-preset-cellular",
   "author": "Felix Gnass <fgnass@cellular.de>",
