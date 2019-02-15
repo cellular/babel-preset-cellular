@@ -28,7 +28,7 @@
     "babel-preset-react": "^6.24.1"
   },
   "devDependencies": {
-    "eslint": "^4.17.0",
+    "eslint": "^5.14.0",
     "eslint-config-cellular": "^2.0.0"
   }
 }
